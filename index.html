@@ -19,41 +19,143 @@
     <!-- <meta property="og:image" content="<%= VUE_APP_PRODUCTION_URL %>/img/avatar-og.png" /> -->
 	
 	<style type="text/css">
-		body { font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif; background-color: #1c1c1c; color: #efefef; font-size: 1.4em; line-height: 2em; }
+		body { font-family: 'Yanone Kaffeesatz', Helvetica, sans-serif;  color: #efefef; font-size: 1.4em; line-height: 2em; margin:0; padding: 0; margin-bottom: -20px; background: url('./neonescape/blurry-background.jpg') fixed; }
 		img { width: 100%; max-width: 400px; opacity: 0.8; }
 		div { width: 100%; text-align:center; }
 		a { color: #efefef; text-decoration:none; }
 		a:hover { color: #bababa; }
+    .neon-escape:hover{ color: #e402ff; }
+
+    hr { height: 1px; max-width: 300px; border: 0px solid #FFFFFF55; border-top-width: 1px; margin: 50px auto; }
+
+    .header-bar { width: 100%; text-align:center; background-color:#000000AA; }
+    .header-bar ul { margin:0; padding: 10px; }
+    .header-bar li { display:inline;  }
+    .header-bar a { padding: 0px 20px; }
+
+    .body { margin: 0 auto; max-width: 900px; background-color:#00000080;  }
+
+    ul.social-media { width: 674px; height: 90px; text-align: center; margin: 0 auto; padding:0; }
+    ul.social-media li { display:inline; float:left; }
+    ul.social-media li a div { display:inline-block; }
+
+    .mailing-list { clear: both; margin: 20px 0px;}
+
+    .footer { margin: 20px 0px; }
+    .footer ul { margin: 0; padding:0; }
+    .footer ul li { display:inline; margin: 10px; }
+    .copyright {  padding: 20px 0px; font-size: 0.8em; }
+
+
 	</style>
 
   </head>
   <body>
-    <!-- <noscript> -->
-      <!-- <strong>Sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> -->
-    <!-- </noscript> -->
-		<div>
-			<img src="./logo-cheeky-monkey.png" alt="Cheeky Monkey logo" />
-		</div>
-		<div style="margin-top: 50px; font-size: 1.6em; text-transform: uppercase;">
-			I'll be there soon.
-		</div>
-		<div style="margin-top: 50px;margin-bottom: 0px;">
-			In the meantime:
-		</div>
-		<div>
-			<div>
-				<a href="https://play.google.com/store/apps/details?id=games.cheekymonkey.neonescape" title="https://play.google.com/store/apps/details?id=games.cheekymonkey.neonescape">
-					<span class="fa fa-gamepad fa-lg fa-fw"></span>
-					<span>Play <i>Neon Escape</i> for free</span>
-				</a>
-			</div>
-			<div>
-				<a href="https://twitter.com/CheekyMonkeyGms" title="https://twitter.com/CheekyMonkeyGms">
-					<span class="fa fa-twitter fa-lg fa-fw"></span>
-					<span>Follow me on Twitter</span>
-				</a>
-			</div>
-		</div>
+
+    <div class="header-bar">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a class="neon-escape" href="./neonescape">NEON ESCAPE</a></li>
+      </ul>
+    </div>
+
+    <div class="body">
+      <div>
+        <img src="./logo-cheeky-monkey.png" alt="Cheeky Monkey logo" style="width: 150px; margin: 10px;" />
+      </div>
+      <!-- <div style="margin-top: 50px; font-size: 1.6em; text-transform: uppercase;">
+        Making juicy games
+      </div> -->
+      <div style="margin-bottom: 20px">
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/yKeJKTGR2nc" title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div style="height: 115px;">
+        <a href='https://play.google.com/store/apps/details?id=games.cheekymonkey.neonescape&utm_source=cheekymonkey.games'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style="width: 300px;"/></a>
+      </div>
+
+      <hr/>
+      
+      <div>
+        <span style="font-size: 2.6em">MAKING JUICY GAMES</span><br/>
+        &<br/>
+        <span style="font-size: 1.2em">STREAMING GAMEDEV PROTOTYPING ON TWITCH</span>
+      </div>
+
+      <hr/>
+
+      <div>
+        <ul class="social-media">
+          <li>
+            <a href="https://twitter.com/CheekyMonkeyGms" title="https://twitter.com/CheekyMonkeyGms">
+              <span class="fa fa-twitter fa-lg" style="font-size: 2.2em"></span>
+              <div>@CheekyMonkeyGms</div>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hello@cheekymonkey.games" title="hello@cheekymonkey.games">
+              <span class="fa fa-envelope fa-lg" style="font-size: 2.2em"></span>
+              <div>hello@cheekymonkey.games</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitch.tv/gamedevprotos" title="https://twitch.tv/gamedevprotos">
+              <span class="fa fa-twitch fa-lg" style="font-size: 2.2em"></span>
+              <div>GamedevProtos</div>
+            </a>
+          </li>
+        </ul>
+        <!-- <div class="mailing-list">
+          TODO subscribe to mailing list
+        </div>
+      </div> -->
+      </div>
+
+      <hr/>
+
+      <div class="footer">
+        <ul>
+          <li>
+            <a href="https://twitter.com/CheekyMonkeyGms" title="https://twitter.com/CheekyMonkeyGms">
+              <span class="fa fa-twitter fa-xs"></span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hello@cheekymonkey.games" title="hello@cheekymonkey.games">
+              <span class="fa fa-envelope fa-xs"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitch.tv/gamedevprotos" title="https://twitch.tv/gamedevprotos">
+              <span class="fa fa-twitch fa-xs"></span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="copyright">© 2022 Cheeky Monkey Games</div>
+      </div>
+
+
+          <!-- 
+    NEON ESCAPE
+    Neon escape trailer 
+    Game tagline
+    play store badge
+
+    Description
+    Screenshots, animated gifs
+    Information (https://gladiogames.com/square-maze-press-kit/)
+
+    link to presskit page
+    (https://gladiogames.com/square-maze-press-kit/)
+    https://blackpants.de/presskits/sheet.php?p=about_love,_hate_and_the_other_ones_2
+    zip with everything
+    -->
+    </div>
+
+
+
+
   </body>
 </html>
 
