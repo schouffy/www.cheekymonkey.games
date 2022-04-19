@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <link rel="icon" href="../favicon.ico">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+
+    <link rel="icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../lightbox/lightbox.min.css" type="text/css">
     
     <title>Neon Escape - Cheeky Monkey Games</title>
     <meta name="description" content="Making juicy games 🎮" />
@@ -46,6 +49,7 @@
     }
 
     img.screenshot { display: inline; padding: 5px; max-width: 360px; }
+    img.screenshot:hover { filter: brightness(120%); }
 
     ul.ost { width: 530px; height: 90px; text-align: center; margin: 0 auto; padding:0; }
     ul.ost li { display:inline; float:left; }
@@ -58,13 +62,15 @@
 
 	</style>
 
+  
+
   </head>
   <body>
 
     <div class="header-bar">
       <ul>
         <li><a href="../index.html">HOME</a></li>
-        <li><a class="neon-escape" href="../neonescape">NEON ESCAPE</a></li>
+        <li><a class="neon-escape" style="font-weight:bold" href="../neonescape">NEON ESCAPE</a></li>
       </ul>
     </div>
 
@@ -101,18 +107,18 @@
       <hr/>
 
       <div>
-        <img class="screenshot" src="./NeonEscape-ss3-CanYouEscape.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss1-ChallengeYourFocusAndReflexes.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss2-BecomeUnstoppable.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss4-ShootYourWayOut.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss7-IntroCutscene.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss5-ProgressScreen.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss8-GrabShotgun.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss9-HighScoreBeaten.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss10-LastChance.jpg" />
-        <img class="screenshot" src="./NeonEscape-ss11-Collectibles.jpg" />
-        <img class="screenshot" src="./NeonEscape-gif1-DestroyingDoors.gif" />
-        <img class="screenshot" src="./NeonEscape-gif2-KillcamAndSlowdown.gif" />
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss3-CanYouEscape.jpg"><img class="screenshot" src="./NeonEscape-ss3-CanYouEscape.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss1-ChallengeYourFocusAndReflexes.jpg"><img class="screenshot" src="./NeonEscape-ss1-ChallengeYourFocusAndReflexes.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss2-BecomeUnstoppable.jpg"><img class="screenshot" src="./NeonEscape-ss2-BecomeUnstoppable.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss4-ShootYourWayOut.jpg"><img class="screenshot" src="./NeonEscape-ss4-ShootYourWayOut.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss7-IntroCutscene.jpg"><img class="screenshot" src="./NeonEscape-ss7-IntroCutscene.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss5-ProgressScreen.jpg"><img class="screenshot" src="./NeonEscape-ss5-ProgressScreen.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss8-GrabShotgun.jpg"><img class="screenshot" src="./NeonEscape-ss8-GrabShotgun.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss9-HighScoreBeaten.jpg"><img class="screenshot" src="./NeonEscape-ss9-HighScoreBeaten.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss10-LastChance.jpg"><img class="screenshot" src="./NeonEscape-ss10-LastChance.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-ss11-Collectibles.jpg"><img class="screenshot" src="./NeonEscape-ss11-Collectibles.jpg" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-gif1-DestroyingDoors.gif"><img class="screenshot" src="./NeonEscape-gif1-DestroyingDoors.gif" /></a>
+        <a data-lightbox="neonescape-screenshots" href="./NeonEscape-gif2-KillcamAndSlowdown.gif"><img class="screenshot" src="./NeonEscape-gif2-KillcamAndSlowdown.gif" /></a>
       </div>
 
       <hr/>
@@ -195,6 +201,15 @@
       </div>
 
     </div>
+
+    <script type="text/javascript" src="../lightbox/lightbox-plus-jquery.min.js"></script>
+    <script>
+      lightbox.option({
+        'resizeDuration': 200,
+        'alwaysShowNavOnTouchDevices': true,
+        'imageFadeDuration': 400
+      });
+  </script>
 
   </body>
 </html>
