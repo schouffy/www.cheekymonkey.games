@@ -92,3 +92,6 @@ bidmachine.io, 114, RESELLER
 bidmachine.io, 67, RESELLER
 liftoff.io, 7f6945815e6, RESELLER
 spotx.tv, 117872, RESELLER, 7842df1d2fe2db34
+
+#Facebook Glory Gloves app id
+facebook.com, 1072054280351039, RESELLER, c3e20eee3f780d68
