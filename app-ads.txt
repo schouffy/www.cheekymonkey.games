@@ -3,3 +3,6 @@ facebook.com, 1072054280351039, RESELLER, c3e20eee3f780d68
 
 #Facebook NeonEscape app id
 facebook.com, 420336580092461, RESELLER, c3e20eee3f780d68
+
+#Facebook OMG A Killer with Voodoo
+facebook.com, 724672602173671, RESELLER, c3e20eee3f780d68
