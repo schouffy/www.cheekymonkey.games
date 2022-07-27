@@ -6,3 +6,6 @@ facebook.com, 420336580092461, RESELLER, c3e20eee3f780d68
 
 #Facebook OMG A Killer with Voodoo
 facebook.com, 724672602173671, RESELLER, c3e20eee3f780d68
+
+#Facebook Banzai Bomb with Voodoo
+facebook.com, 719091645949423, RESELLER, c3e20eee3f780d68
