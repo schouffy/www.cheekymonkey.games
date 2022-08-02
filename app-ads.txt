@@ -9,3 +9,4 @@ facebook.com, 724672602173671, RESELLER, c3e20eee3f780d68
 
 #Facebook Banzai Bomb with Voodoo
 facebook.com, 719091645949423, RESELLER, c3e20eee3f780d68
+facebook.com, 371129388427932, RESELLER, c3e20eee3f780d68
