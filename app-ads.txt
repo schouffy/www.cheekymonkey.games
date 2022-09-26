@@ -19,3 +19,6 @@ facebook.com, 1515821825526845, RESELLER, c3e20eee3f780d68
 
 #Facebook Inferno Tower with Voodoo
 facebook.com, 797178744650858, RESELLER, c3e20eee3f780d68
+
+#Facebook Blitz Army with Voodoo
+facebook.com, 1520299805078167, RESELLER, c3e20eee3f780d68
